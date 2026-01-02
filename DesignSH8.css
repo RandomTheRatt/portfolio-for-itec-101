@@ -1,0 +1,92 @@
+.thepfp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    margin: 2%;
+    height: auto;
+    width: auto;
+}
+
+.thepfp img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thepfptext {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 2px solid orange;
+    outline: rgb(253, 97, 97) solid 3px;
+    margin: auto;
+    padding: 20px;
+    background-color: aliceblue;
+    font-size: large;
+}
+
+.accordion {
+    background-color: #f1f1f1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.accordion:hover {
+    background-color: #ddd;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+}
+
+.bordered2 {
+    border: 2px solid orange;
+    outline: rgb(253, 97, 97) solid 3px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: large;
+}
+
+.bordered3 {
+    border: 2px solid rgb(0, 0, 0);
+    outline: rgb(255, 255, 255) solid 3px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: large;
+}
+
+body {
+    background-color: rgb(137, 216, 252);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans';
+    margin-left: 20px;
+}
